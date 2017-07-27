@@ -6,7 +6,7 @@ The instructor will walk you through the high level steps (check the full [Fact 
   1. Choose the **Fact** blueprint template.
   1. Setup "Alexa Skills Kit" as the function trigger.
   1. Name the function ```BreakfastSandwich```
-  1. Replace the existing code by pasting in the code from [src/index.js](src/index.js).
+  1. Replace the existing code by pasting in the code from [src/index.js](../src/index.js).
   1. Choose your default role ```lambda_basic_execution```
   1. Click "Create Function"
 
