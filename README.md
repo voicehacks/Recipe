@@ -11,7 +11,7 @@ You can install the skill, and then update the text within the Lambda Javascript
 
 ### Installing the skill
 
-At this point you should be familiar with the process of installing the skill and able to get through it on your own.  If not, feel free to review the [detailed instructions](https://github.com/voicehacks/Recipe/tree/master/Detailed%20Setup%20Instructions) for some step-by-step guidance. Otherwise, go ahead and install the skill and use the code provided in [src/index.js](src/index.js) then proceed to the [first lab](Recipe/Lab 1/README.md). 
+At this point you should be familiar with the process of installing the skill and able to get through it on your own.  If not, feel free to review the [detailed instructions](https://github.com/voicehacks/Recipe/tree/master/Detailed%20Setup%20Instructions) for some step-by-step guidance. Otherwise, go ahead and install the skill and use the code provided in [src/index.js](src/index.js) then proceed to the [first lab](/Lab-1/README.md). 
 
 ### Test
 
