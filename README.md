@@ -1,5 +1,10 @@
 # Recipe
+[Detailed Setup](detailed-setup/README.md)
 
+<a href="Lab 1/README.md">Lab 1</a>
+
+
+<a href="Lab 2/README.md">Lab 1</a>
 
 # Breakfast Sandwich
 
