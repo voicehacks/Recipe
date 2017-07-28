@@ -1,4 +1,6 @@
 # Recipe
+<a href="https://github.com/voicehacks/setup-local-recommendations">Local Recommendations</a>
+
 [Detailed Setup](detailed-setup/README.md)
 
 <a href="Lab 1/README.md">Lab 1</a>
