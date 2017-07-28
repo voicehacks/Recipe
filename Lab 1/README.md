@@ -8,3 +8,6 @@ Be sure to maintain quotes around all strings.  Single or double quotes around s
 Click **Save** to save the changes to your Lambda function.
 [Test](https://github.com/alexa/alexa-cookbook/tree/master/testing) your function.
 If it works well, please [publish your skill](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/publishing-an-alexa-skill)  for the world to enjoy.
+
+
+<a href="https://github.com/voicehacks/Recipe/tree/master/Lab%202"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/3-7-next-button._TTH_.png" /></a>
