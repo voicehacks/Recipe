@@ -19,6 +19,8 @@ The instructor will walk you through the high level steps (check the full [Fact 
   1. Advance to the Configuration page, choose AWS Lambda ARN, and paste in the ARN from the function you created.
 
 ### Next Step:
+Go to the first lab.
+
+<a href="https://github.com/voicehacks/Recipe/tree/master/Lab%201"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/3-7-next-button._TTH_.png" /></a>
 
 
-https://github.com/voicehacks/Recipe/tree/master/Lab%201
