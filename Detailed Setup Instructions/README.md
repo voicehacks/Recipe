@@ -17,3 +17,8 @@ The instructor will walk you through the high level steps (check the full [Fact 
   1. Copy and paste the ```speechAssets/InteractionModel.json``` contents into the Skill Builder Beta.
   1. Click Save, then Build
   1. Advance to the Configuration page, choose AWS Lambda ARN, and paste in the ARN from the function you created.
+
+### Next Step:
+
+
+https://github.com/voicehacks/Recipe/tree/master/Lab%201
