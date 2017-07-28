@@ -25,6 +25,9 @@ Steps:
 Test your skill again.  Say Next a couple of times to advance through the recipe steps.  Next, say "Stop" or "Pause".
 Launch the skill again and you should be prompted to continue where you left off.
 
+#### Extra Credit
+
+If you'd like an extra challenge, try building a skill like this for the Echo Show.  Maybe for each step in your recipe, your skill can display a photo of the ingredient.  Or, maybe the user has the option to watch find videos on YouTube that give a step-by-step recipe.  
 
 ### Practice and Demo
 Practice all the features of your skill.  You can use [EchoSim.IO](https://echosim.io), the Amazon shopping app on your phone, or an Echo device.
