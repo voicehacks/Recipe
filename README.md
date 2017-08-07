@@ -1,7 +1,7 @@
 # Recipe
 <a href="https://github.com/voicehacks/setup-local-recommendations">Local Recommendations</a>
 
-[Detailed Setup](detailed-setup/README.md)
+[Detailed Setup](Detailed-Setup-Instructions/README.md)
 
 <a href="Lab 1/README.md">Lab 1</a>
 
@@ -11,14 +11,17 @@
 # Breakfast Sandwich
 
 ## How can I build a Recipe Skill for Alexa? <a id="intro"></a>
+Have you ever called customer service and spent 10 minutes listening to menu options, choosing prompts, then repeating the process? What happens when you get disconnected and have to call back again? You start from the beginning, and have to trudge through the entire tree of options again. When we rely only on session data, the same thing will happen with Alexa. This lab will teach you how to use a database to persist information. This will lead to a more natural, conversational feel to your skill from a user's perspective.
 
-Breakfast Sandwich is a skill that will guide the user through the process to prepare and cook a meal.
-The skill can give the user a list of recipe ingredients, and then guide them through all the recipe steps.
-You can install the skill, and then update the text within the Lambda Javascript code to define your own Recipe and Ingredients.
+This lesson consists of 3 main steps: Use the code provided in [src/index.js](src/index.js) and in [speechAssets/IntentSchema.json](speechAssets/IntentSchema.json)
 
-### Installing the skill
+### Task 1: Build the Skill
 
-At this point you should be familiar with the process of installing the skill and able to get through it on your own.  If not, feel free to review the [detailed instructions](https://github.com/voicehacks/Recipe/tree/master/Detailed%20Setup%20Instructions) for some step-by-step guidance. Otherwise, go ahead and install the skill and use the code provided in [src/index.js](src/index.js) then proceed to the [first lab](https://github.com/voicehacks/Recipe/tree/master/Lab%201). 
+At this point you should be familiar with the process of installing the skill and able to get through it on your own.  If not, feel free to review the [detailed instructions](https://github.com/voicehacks/Recipe/tree/master/Detailed%20Setup%20Instructions) for some step-by-step guidance. Otherwise, go ahead and install the skill and use the code provided in [src/index.js](src/index.js) then proceed to the [first lab](https://github.com/voicehacks/Recipe/tree/master/Lab%201).
+
+### Task 2: Enable Permissions
+
+### Task 3: Enable Database
 
 ### Test
 
