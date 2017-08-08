@@ -1,11 +1,11 @@
-# Build An Alexa Fact Skill
+# Build An Alexa Recipe Skill
 [![Voice User Interface](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/1-on._TTH_.png)](../voice-user-interface)[![Lambda Function](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/2-off._TTH_.png)](../Lambda-Function)[![Connect VUI to Code](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/3-off._TTH_.png)](../connect-vui-to-code)[![Testing](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/4-off._TTH_.png)](../testing)[![Customization](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/5-off._TTH_.png)](../customization)[![Publication](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/6-off._TTH_.png)](../publication)
 
 [Click Here](../README.md) to return to the Recipe guide.
 
 ## Setting up Your Alexa Skill in the Developer Portal
 
-There are two parts to an Alexa skill.  The first part is the [Voice User Interface (VUI)](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface).  This is where we define how we will handle a user's voice input, and which code should be executed when specific commands are uttered.  The second part is the actual code logic for our skill, and we will handle that on [page #2](/Lambda-Function) of this step-by-step guide.
+There are two parts to an Alexa skill.  The first part is the [Voice User Interface (VUI)](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface).  This is where we define how we will handle a user's voice input, and which code should be executed when specific commands are uttered.  The second part is the actual code logic for our skill, and we will handle that on [page #2](../Lambda-Function) of this step-by-step guide.
 
 1.  **Go to the [Amazon Developer Portal](http://developer.amazon.com).  In the top-right corner of the screen, click the "Sign In" button.** </br>(If you don't already have an account, you will be able to create a new one for free.)
 
@@ -57,9 +57,9 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
 8.  Click on the "Code Editor" item under **Dashboard** on the top left side of the skill builder.
 
-9.  In the textfield provided, replace any existing code with the code provided in the [Interaction Model](speechAssets/InteractionModel.json), then click "Apply Changes".  
+9.  In the textfield provided, replace any existing code with the code provided in the [Interaction Model](../../speechAssets/InteractionModel.json), then click "Apply Changes".  
 
-10. Add some more sample utterances for your newly generated intents.  These are the things a user would say to make this intent happen.  Here are a few examples:
+10. Add some more sample utterances for your newly generated intents.  These are the things a user would say to make a specific intent happen.  Here are a few examples:
 
     * I want to cook
     * Help me cook
@@ -73,7 +73,7 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
     ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-12-skill-builder-build-save-model._TTH_.png)
 
 
-12.  If your interaction model builds successfully, click on **Configuration button** to move on to Configuration. In our next step of this guide, we will be creating our Lambda function in the AWS developer console, but keep this browser tab open, because we will be returning here on [Page #3: Connect VUI to Code](https://github.com/alexa/skill-sample-nodejs-fact/blob/master/step-by-step/3-connect-vui-to-code.md).
+12.  If your interaction model builds successfully, click on **Configuration button** to move on to Configuration. In our next step of this guide, we will be creating our Lambda function in the AWS developer console, but keep this browser tab open, because we will be returning here on [Page #3: Connect VUI to Code](../connect-vui-to-code).
      ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-13-skill-builder-configuration.png)
 
      If you get an error from your interaction model, check through this list:

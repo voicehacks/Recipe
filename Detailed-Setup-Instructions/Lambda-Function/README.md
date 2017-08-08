@@ -1,4 +1,4 @@
-# Build An Alexa Fact Skill
+# Build An Alexa Recipe Skill
 [![Voice User Interface](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/1-locked._TTH_.png)](../voice-user-interface)[![Lambda Function](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/2-on._TTH_.png)](../Lambda-Function)[![Connect VUI to Code](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/3-off._TTH_.png)](../connect-vui-to-code)[![Testing](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/4-off._TTH_.png)](../testing)[![Customization](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/5-off._TTH_.png)](../customization)[![Publication](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/navigation/6-off._TTH_.png)](../publication)
 
 [Click Here](../README.md) to return to the Recipe guide.
@@ -37,7 +37,7 @@ In the [first step of this guide](../voice-user-interface), we built the Voice U
 
     <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/2-7-configure-your-function._TTH_.png" />
 
-8.  **Paste the provided code into the Lambda function code box.**  We have provided the code for this skill on [GitHub](https://github.com/voicehacks/Recipe/src/index.js).  Simply delete the contents of the code box, and paste the contents of the new code.
+8.  **Paste the provided code into the Lambda function code box.**  We have provided the code for this skill on [GitHub](../../src/index.js).  Simply delete the contents of the code box, and paste the contents of the new code.
 
 9.  **Set up your Lambda function role.**  If you haven't done this before, we have a [detailed walkthrough for setting up your first role for Lambda](https://github.com/alexa/skill-sample-nodejs-fact/blob/master/lambda-role.md).  If you have done this before, you only need to set your **Existing role** value to "lambda_basic_execution."
 
