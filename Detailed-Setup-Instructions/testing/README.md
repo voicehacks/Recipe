@@ -6,7 +6,7 @@
 
 ## Testing Your Alexa Skill
 
-So far, we have [created a Voice User Interface](https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/voice-user-interface/README.md) and [a Lambda function](https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/Lambda-Function/README.md), and [connected the two together](https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/connect-vui-to-code/README.md).  Your skill is now ready to test.
+So far, we have [created a Voice User Interface](../voice-user-interface) and [a Lambda function](../Lambda-Function), and [connected the two together](../connect-vui-to-code).  Your skill is now ready to test.
 
 1.  **Go back to the [Amazon Developer Portal](https://developer.amazon.com/edw/home.html#/skills/list) and select your skill from the list.** You may still have a browser tab open if you started at the beginning of this tutorial.
 
