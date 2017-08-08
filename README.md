@@ -15,7 +15,6 @@ This lab will teach you how to use a database to persist information so users ca
 
 Have you ever played music and needed to pause in the middle of a song? What about ordering a pizza online? If you've started an order, then leave the page, when you come back you have the option to complete your previous order. In both cases, upon our return, we have the option of continuing right where we left off, or starting over from the beginning. By persisting information in a database, we can give Alexa the capability to store a memory of a recent conversation just as a human would. Which will lead to a more natural, conversational feel to your skill from a user's perspective.
 
-<!-- TODO:  Re-word this and provide the option for more detailThis lesson consists of 3 main steps: Use the code provided in [src/index.js](src/index.js) and in [speechAssets/IntentSchema.json](speechAssets/IntentSchema.json) -->
 
 ### Task 1: Build the Skill
 Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to do it and move to Task 2. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions).
