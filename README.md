@@ -1,12 +1,7 @@
 # Recipe
-<a href="https://github.com/voicehacks/setup-local-recommendations">Local Recommendations</a>
+This is the Recipe Skill. Go <a href="https://github.com/voicehacks/setup-local-recommendations">here</a> for the Local Recommendations skill guide.
 
-[Detailed Setup](Detailed-Setup-Instructions/README.md)
-
-<a href="Lab 1/README.md">Lab 1</a>
-
-
-<a href="Lab 2/README.md">Lab 2</a>
+[Detailed Setup](Detailed-Setup-Instructions/voice-user-interface)
 
 # Breakfast Sandwich
 
@@ -17,7 +12,7 @@ Have you ever played music and needed to pause in the middle of a song? What abo
 
 
 ### Task 1: Build the Skill
-Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to complete it with the steps below as a reference and move to Task 2 once complete. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions).
+Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to complete it with the steps below as a reference and move to Task 2 once complete. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions/voice-user-interface).
 
 *1.1 Create a new AWS Lambda function:*
   1. Choose the **Fact** blueprint template.
@@ -37,7 +32,7 @@ Create your skill using the Lambda code given in [src/index.js](src/index.js) an
 
 ### Task 2: Enable Permissions
 We can configure a DynamoDB database table to remember which step the user was on when they stop or pause the skill.
-When you create a new skill, the default permissions are set to the lowest-needed to run a basic skill. We want our skill to do more, so we will need to add the permission to have full access to DynamoDB. 
+When you create a new skill, the default permissions are set to the lowest-needed to run a basic skill. We want our skill to do more, so we will need to add the permission to have full access to DynamoDB.
 Once our database is configured, we can have our skill prompt the user to continue with the next step when re-launching the skill.
 
 We will need to prepare our skill's Lambda function to use a database called [DynamoDB](https://aws.amazon.com/dynamodb/).
