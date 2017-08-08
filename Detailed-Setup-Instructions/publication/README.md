@@ -19,10 +19,10 @@ We are almost done!  The last step is to add the metadata that your skill will u
 
     *  **Provide testing instructions.** Testing instructions give you an opportunity to explain your skill, and any special or possibly confusing features, to the certification team.  A value is required in this box.
 
-        *  Since you are using our Fact Sample, make sure to add this sentence to your Testing Instructions:
+        *  Since you are using our Recipe Sample, make sure to add this sentence to your Testing Instructions:
 
            ```
-           This was built using the Fact Sample.
+           This was built using the Recipe Sample.
            ```
 
            This will let the testing team understand what you're providing them, and should decrease the testing time required.        
