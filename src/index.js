@@ -14,13 +14,14 @@ var languageStrings = {
     // , 'de-DE': { 'translation' : { 'WELCOME'   : "Guten Tag etc." } }
 };
 var data = {
-    "ingredients" : 
+  // TODO: Replace this data with your own.
+    "ingredients" :
         [
             {"name": "bread",  "qty": 2, "units": "pieces of"},
             {"name": "egg",    "qty": 1, "units": ""  },
             {"name": "cheese", "qty": 1, "units": "slice of" }
         ],
-    "steps" : 
+    "steps" :
     [
         "Heat a frying pan on your stove over medium heat.",
         "Crack an egg in the skillet and heat until the egg becomes firm.",
