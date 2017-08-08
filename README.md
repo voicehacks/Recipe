@@ -18,9 +18,7 @@ Have you ever played music and needed to pause in the middle of a song? What abo
 <!-- TODO:  Re-word this and provide the option for more detailThis lesson consists of 3 main steps: Use the code provided in [src/index.js](src/index.js) and in [speechAssets/IntentSchema.json](speechAssets/IntentSchema.json) -->
 
 ### Task 1: Build the Skill
-Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [intent schema](speechAssets/IntentSchema.json). If you're completing this step on your own, feel free to do it and move to Task 2.
-
-You can use the [detailed instructions](https://github.com/voicehacks/Recipe/tree/master/Detailed%20Setup%20Instructions) for step-by-step guidance.
+Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to do it and move to Task 2. Otherwise, follow the steps in the
 
 ### Task 2: Enable Permissions
 We can configure a DynamoDB database table to remember which step the user was on when they stop or pause the skill.
@@ -70,4 +68,4 @@ Currently this skill tells you how to make one kind of sandwich. Expand your ski
 
 #### Add More Card images
 
-If you looked through the source code for this skill, you probably noticed that we have a welcome card image being used. Add to your current skill to display different images according to the state of your skill. 
+If you looked through the source code for this skill, you probably noticed that we have a welcome card image being used. Add to your current skill to display different images according to the state of your skill.
