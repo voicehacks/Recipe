@@ -17,21 +17,36 @@ Have you ever played music and needed to pause in the middle of a song? What abo
 
 
 ### Task 1: Build the Skill
-Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to do it and move to Task 2. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions).
+Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to complete it with the steps below as a reference and move to Task 2 once complete. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions).
+
+*1.1 Create a new AWS Lambda function:*
+  1. Choose the **Fact** blueprint template.
+  1. Setup "Alexa Skills Kit" as the function trigger.
+  1. Name the function ```BreakfastSandwich```
+  1. Replace the existing code by pasting in the code from [src/index.js](src/index.js).
+  1. Choose your default role ```lambda_basic_execution```
+  1. Click "Create Function"
+
+*1.2 Create a new skill*
+  1. Call the skill "Breakfast Sandwich" with invocation name ```breakfast sandwich```
+  1. Launch "Skill Builder Beta"
+  1. Click the Code Editor tab (just below the turqoise Dashboard tab on the top left)
+  1. Copy and paste the ```speechAssets/InteractionModel.json``` contents into the field over the existing text.
+  1. Click Save, then click Build
+  1. Advance to the Configuration page, choose AWS Lambda ARN, and paste in the ARN from the function you just created.
 
 ### Task 2: Enable Permissions
 We can configure a DynamoDB database table to remember which step the user was on when they stop or pause the skill.
+When you create a new skill, the default permissions are set to the lowest-needed to run a basic skill. We want our skill to do more, so we will need to add the permission to have full access to DynamoDB. 
 Once our database is configured, we can have our skill prompt the user to continue with the next step when re-launching the skill.
 
 We will need to prepare our skill's Lambda function to use a database called [DynamoDB](https://aws.amazon.com/dynamodb/).
-
-<!-- Every skill is lowest-needed permissions first, need to add them as necessary -->
 
 If you've never done this before or need a refresher, follow the steps below which walk you through how to enable permission for a database before we define it within our Lambda function. If you're comfortable doing this on your own, go ahead and move on to Task 3 once you've added the permission.
 
 #### Configure Permissions for DynamoDB
 Steps:
-1. Open a browser to the [AWS Console](https://aws.amazon.com/console)
+1. Open a browser to the [AWS Console](https://aws.amazon.com/console). Or, simply go to that tab if you've still got it open, then click the orange cube in the top left corner to return to the AWS main page.
 1. In the search box titled **AWS services**, type ```IAM``` then click the option reading **IAM** (Manage User Access and Encryption Keys)
 1. On the new page reading **Welcome To Identity and Access Management** your navbar to the left should have an option called **Roles**. Click that.
 1. On this page, you should see the name of your standard Lambda role, ```lambda_basic_execution```. Click the role name.
