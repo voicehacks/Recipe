@@ -82,6 +82,6 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
      *  **Did you accidentally add any characters to the Interaction Model or Sample Utterances?**
 
 <br/><br/>
-[https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_lambda_function._TTH_.png](../Lambda-Function)
+<a href="../Lambda-Function"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_lambda_function._TTH_.png"/></a>
 
 <img height="1" width="1" src="https://www.facebook.com/tr?id=1847448698846169&ev=PageView&noscript=1"/>

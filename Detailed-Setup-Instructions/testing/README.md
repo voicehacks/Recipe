@@ -113,6 +113,6 @@ pronounce it. To make changes to her pronunciation, use Speech Synthesis Markup 
 7.  **If your sample skill is working properly, you can now customize your skill.**
 
 <br/><br/>
-<a href="https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/Customization/README.md"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_customization._TTH_.png" /></a>
+<a href="../customization"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_customization._TTH_.png" /></a>
 
 <img height="1" width="1" src="https://www.facebook.com/tr?id=1847448698846169&ev=PageView&noscript=1"/>

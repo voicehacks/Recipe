@@ -32,6 +32,6 @@ On [page #1](../voice-user-interface) of this guide, we created a voice user int
     [![Testing](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/3-7-next-button._TTH_.png)](https://github.com/alexa/skill-sample-nodejs-fact/blob/master/step-by-step/4-testing.md)
 
 <br/><br/>
-<a href="https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/testing/README.md"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_testing._TTH_.png" /></a>
+<a href="../testing"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_testing._TTH_.png" /></a>
 
 <img height="1" width="1" src="https://www.facebook.com/tr?id=1847448698846169&ev=PageView&noscript=1"/>
