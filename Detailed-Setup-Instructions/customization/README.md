@@ -36,6 +36,6 @@ At this point, you should have a working copy of our Fact skill.  In order to ma
     <a href="https://github.com/alexa/skill-sample-nodejs-fact/blob/master/step-by-step/"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/3-7-next-button._TTH_.png" /></a>
 
 <br/><br/>
-<a href="https://github.com/voicehacks/Recipe/Detailed-Setup-Instructions/publication/README.md"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_publication._TTH_.png" /></a>
+<a href="../publication"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_publication._TTH_.png" /></a>
 
 <img height="1" width="1" src="https://www.facebook.com/tr?id=1847448698846169&ev=PageView&noscript=1"/>
