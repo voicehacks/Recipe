@@ -12,7 +12,7 @@ Have you ever played music and needed to pause in the middle of a song? What abo
 
 
 ### Task 1: Build the Skill
-Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json). If you're comfortable completing this step on your own, feel free to complete it with the steps below as a reference and move to Task 2 once complete. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions/voice-user-interface).
+Create your skill using the Lambda code given in [src/index.js](src/index.js) and the [Interaction Model](speechAssets/InteractionModel.json) (We've also included a simple [test file](test.json) for your lambda function). If you're comfortable completing this step on your own, feel free to complete it with the steps below as a reference and move to Task 2 once complete. Otherwise, follow the steps in the [Detailed Setup Instructions](Detailed-Setup-Instructions/voice-user-interface).
 
 *1.1 Create a new AWS Lambda function:*
   1. Choose the **Fact** blueprint template.
