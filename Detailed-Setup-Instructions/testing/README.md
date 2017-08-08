@@ -33,7 +33,7 @@ pronounce it. To make changes to her pronunciation, use Speech Synthesis Markup 
 
     Return to the Voice Simulator as needed to ensure that Alexa says words and phrases as you would expect.
 
-4.  **Test your skill with the Service Simulator.** To validate that your skill is working as expected, use the Service Simulator.  In the **Enter Utterance** text box, type "give me a fact"
+4.  **Test your skill with the Service Simulator.** To validate that your skill is working as expected, use the Service Simulator.  In the **Enter Utterance** text box, type "begin cooking"
 
     <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/fact/4-4-service-simulator._TTH_.png" />  <!-- YOU NEED TO MAKE YOUR OWN VERSION OF THIS IMAGE.  -->
 
@@ -48,28 +48,25 @@ pronounce it. To make changes to her pronunciation, use Speech Synthesis Markup 
 
         ```JAVASCRIPT
         {
-            "session": {
-                "sessionId": "SessionId.ce5b9874-0f86-49d0-8fe2-85f5a2008386",
-                "application": {
-                "applicationId": "amzn1.ask.skill.ac4240ad-4b18-484a-ab67-d740ed1320ac"
-                },
-                "attributes": {},
-                "user": {
-                "userId": "amzn1.ask.account.AGZFAKNV3GFD5OWVXLULBF2NNRHHUSJEHVDEMNQ2ZHTN5N6FPCIOQAJBBJCJ7M4TR254CLS5HPRW25NQL22M5XFR3MV73KJ52MOAD5E4MSKEMZWV2626OF6IOU3YZ6G5ZC5KQW7RP63GUFDRTB5PACWW3375W2E5JQBORIFUEZUYWVGOBHC7Z33C4UOE4QGBFYFFDGHMXW4OL5I"
-                },
-                "new": true
+          "session": {
+            "sessionId": "SessionId.f9e6dcbb-b7da-4b47-905c-1e2e1ab673d5",
+            "application": {
+              "applicationId": "amzn1.echo-sdk-ams.app.[unique-value-here]"
             },
-            "request": {
-                "type": "IntentRequest",
-                "requestId": "EdwRequestId.1181fc5e-453e-4bb4-8ec5-ba48bcaf88ec",
-                "locale": "en-US",
-                "timestamp": "2017-05-03T15:09:42Z",
-                "intent": {
-                "name": "GetNewFactIntent",
-                "slots": {}
-                }
+            "attributes": {},
+            "user": {
+              "userId": "amzn1.ask.account.ZZZZZZGWYOK7OHKVW3MQA2S23ZFJYDLQUB4Y7FMKU2TXQN5GS2ICRONPW3ZASKRWZHW6DLQD4YWCOITWIVUVO37UO4JU65GOAPA2EU4S77MG6AKARMB2Z5I5ZLEWNO6WMOB22VFKU3IE6QZSNGC2H3HMMG2C2V72J4VXVMFQZYSPSKC42EQFYVPYN4DDH6TPVTGF563MOPBY"
             },
-            "version": "1.0"
+            "new": true
+          },
+          "request": {
+            "type": "LaunchRequest",
+
+            "requestId": "request5678",
+
+            "locale": "en-US"
+          },
+          "version": "1.0"
         }
         ```
 
@@ -81,7 +78,7 @@ pronounce it. To make changes to her pronunciation, use Speech Synthesis Markup 
 
         <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/4-5-3-alexa-start-session._TTH_.png" />
 
-    4.  **Delete the contents of the box, and paste your request into the box.**
+    4.  **Delete the contents of the box, and paste your request into the box.** (Your code may look different than the picture below)
 
         <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/fact/4-5-4-paste-request._TTH_.png" />
 
